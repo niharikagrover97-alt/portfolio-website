@@ -1,23 +1,25 @@
-# Niharika Grover — UX Research Portfolio
+# Niharika Grover — UX Research & Design Portfolio
 
-A clean, editorial personal portfolio for a UX researcher. Plain HTML/CSS/JS — no build step, no dependencies.
+A breathable, editorial personal portfolio for a UX researcher & designer with a fine art background. White + light sage + light beige palette, Fraunces serif + Inter sans typography. Plain HTML/CSS/JS — no build step, no dependencies.
 
 ## Structure
 
 | File | Purpose |
 |---|---|
-| `index.html` | Homepage: hero, selected work, methods, about, contact |
+| `index.html` | Homepage: hero, case studies, why me, methods, about teaser, contact |
+| `about.html` | About page with bio, facts, and resume download button |
 | `case-study-checkout.html` | Case study 1 — usability testing (placeholder) |
 | `case-study-diary.html` | Case study 2 — diary study (placeholder) |
 | `case-study-foundational.html` | Case study 3 — mixed-methods foundational research (placeholder) |
 | `styles.css` | All styling (colors, typography, layout) |
-| `script.js` | Scroll-reveal animation |
+| `script.js` | Scroll-reveal animation + case-study scrollspy navigation |
 
 ## Replacing placeholder content
 
 Search for `TODO` comments in the HTML files — every piece of placeholder content is marked. Key spots:
 
-- **Hero statement and bio** in `index.html`
+- **Hero statement and bio** in `index.html` and `about.html`
+- **Resume**: drop your PDF at `assets/resume.pdf` (the About page button links to it)
 - **Case studies**: each page follows a research-report structure (background → research questions → methodology → insights → impact → reflections). Swap in your real projects.
 - **Images**: gray SVG placeholders are used everywhere an image belongs. Replace them with `<img>` tags pointing to files in an `assets/` folder.
 - **Links**: LinkedIn and resume links in the footer.

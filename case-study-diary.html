@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Health App Diary Study — Niharika Grover</title>
+  <meta name="description" content="Case study: a three-week diary study on why users abandon a habit-tracking health app." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,500;0,600;1,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="nav">
+    <div class="nav-inner">
+      <a class="nav-logo" href="index.html">Niharika Grover</a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html#work">Work</a></li>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- TODO: This entire case study is placeholder content. Replace with your real project. -->
+  <section class="case-hero">
+    <div class="container">
+      <div class="work-tags">
+        <span class="tag">Diary study</span>
+        <span class="tag">Health &amp; wellness</span>
+        <span class="tag">Longitudinal · 3 weeks</span>
+      </div>
+      <h1>Understanding why users abandon a habit-tracking health app</h1>
+      <p class="case-summary">Retention data said users “lost motivation” after week two. A three-week diary study with 16 participants showed the real problem was the app’s mental model — and reframed the roadmap.</p>
+      <div class="case-facts">
+        <div class="fact">
+          <span class="fact-label">Role</span>
+          <span class="fact-value">UX Researcher</span>
+        </div>
+        <div class="fact">
+          <span class="fact-label">Timeline</span>
+          <span class="fact-value">8 weeks end-to-end</span>
+        </div>
+        <div class="fact">
+          <span class="fact-label">Methods</span>
+          <span class="fact-value">Diary study, exit interviews</span>
+        </div>
+        <div class="fact">
+          <span class="fact-label">Team</span>
+          <span class="fact-value">1 PM · 1 designer · data scientist</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="container case-body">
+    <aside class="case-toc">
+      <ul>
+        <li><a href="#background">Background</a></li>
+        <li><a href="#questions">Research questions</a></li>
+        <li><a href="#methodology">Methodology</a></li>
+        <li><a href="#insights">Key insights</a></li>
+        <li><a href="#impact">Impact</a></li>
+        <li><a href="#reflections">Reflections</a></li>
+      </ul>
+    </aside>
+
+    <div class="case-content">
+      <section id="background">
+        <h2>Background</h2>
+        <p>The app helped users build daily health habits — hydration, movement, sleep. Day-30 retention sat at 11%, and the team’s working theory was that users simply “lost motivation.” The proposed fix was more gamification: streaks, badges, push notifications.</p>
+        <p>Before investing a quarter in that direction, we wanted to understand what abandonment actually looked like in users’ lives. Cross-sectional interviews wouldn’t capture the moment of drop-off, so I proposed a longitudinal diary study.</p>
+      </section>
+
+      <section id="questions">
+        <h2>Research questions</h2>
+        <ol>
+          <li>What does the experience of using (and quietly abandoning) the app look like day to day, in context?</li>
+          <li>What role does the app actually play in users’ existing routines?</li>
+          <li>Is “lost motivation” the cause of churn, or a symptom of something else?</li>
+        </ol>
+      </section>
+
+      <section id="methodology">
+        <h2>Methodology</h2>
+        <p>I ran a <strong>three-week diary study with 16 new users</strong>, recruited within their first week of using the app — the window when churn risk is highest.</p>
+        <h3>Study design</h3>
+        <ul>
+          <li>Daily structured prompts (2–3 min): what they did, where the app fit in, one feeling word</li>
+          <li>Twice-weekly open prompts with photo/video entries for richer context</li>
+          <li>Signal-triggered prompts when a participant skipped the app for 2+ days — capturing abandonment as it happened</li>
+          <li>30-minute exit interviews with all 16 participants, including the 7 who stopped using the app mid-study</li>
+        </ul>
+        <h3>Analysis</h3>
+        <p>Over 600 diary entries were coded thematically. I mapped each participant’s engagement arc against their diary narrative, then built a journey model of how the app entered — and exited — daily routines.</p>
+      </section>
+
+      <section id="insights">
+        <h2>Key insights</h2>
+
+        <div class="insight">
+          <span class="insight-label">Insight 01</span>
+          <p>Users didn’t lose motivation — they lost the <em>logging habit</em>. They kept doing the health behaviors but stopped recording them, then felt guilty, then avoided the app entirely.</p>
+        </div>
+
+        <div class="insight">
+          <span class="insight-label">Insight 02</span>
+          <p>The app’s mental model was backwards for users: it treated logging as the goal, while users saw logging as a chore in service of the goal. Streak-breaking punished exactly the people who were succeeding offline.</p>
+        </div>
+
+        <div class="insight">
+          <span class="insight-label">Insight 03</span>
+          <p>The “comeback moment” mattered most: after missing days, users who saw a guilt-free re-entry stayed; users greeted by a broken streak left for good.</p>
+        </div>
+
+        <figure class="case-figure">
+          <svg viewBox="0 0 700 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder journey curve">
+            <rect width="700" height="260" fill="#f1ede7"/>
+            <path d="M60 80 C 180 60, 260 120, 350 160 S 560 230, 640 200" stroke="#b1502c" stroke-width="4" fill="none" opacity="0.65"/>
+            <circle cx="350" cy="160" r="8" fill="#b1502c"/>
+            <text x="350" y="35" text-anchor="middle" font-family="Inter, sans-serif" font-size="13" fill="#8a8378">Replace with your journey map or engagement arc</text>
+          </svg>
+          <figcaption>Typical engagement arc: the guilt spiral began at the first missed log, not at “low motivation.”</figcaption>
+        </figure>
+      </section>
+
+      <section id="impact">
+        <h2>Impact</h2>
+        <p>The findings stopped the planned gamification investment and redirected the roadmap toward effortless logging and forgiving re-entry. The team shipped quick-log widgets, retroactive logging, and replaced broken-streak messaging with progress framing.</p>
+        <div class="stat-row">
+          <div class="stat">
+            <span class="stat-value">11% → 19%</span>
+            <span class="stat-label">Day-30 retention</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">2.4×</span>
+            <span class="stat-label">Return rate after missed days</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">1 quarter</span>
+            <span class="stat-label">Of misdirected work avoided</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="reflections">
+        <h2>Reflections</h2>
+        <p>The signal-triggered prompts were the methodological win — abandonment is nearly impossible to study retrospectively because users rationalize it. Catching it within 48 hours produced the study’s most honest data.</p>
+        <p>Next time I would pair the diary data with in-app behavioral logs from day one; we joined them late, and earlier triangulation would have sped up synthesis.</p>
+      </section>
+    </div>
+  </div>
+
+  <nav class="case-nav">
+    <div class="container case-nav-inner">
+      <a href="case-study-checkout.html"><span>← Previous</span>Checkout usability study</a>
+      <a href="case-study-foundational.html" style="text-align: right;"><span>Next case study →</span>B2B foundational research</a>
+    </div>
+  </nav>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <span>© 2026 Niharika Grover</span>
+      <div class="footer-links">
+        <a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="mailto:niharikagrover97@gmail.com">Email</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
